@@ -1,0 +1,138 @@
+
+html {
+    font-size: 10px;
+    } 
+
+
+body {
+    color: #40514E;
+    margin : 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    }
+
+h1 {
+    color: #71C9CE;
+    font-size: 9rem;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    line-height: 1.5;
+    }
+h2 {
+    color: #71C9CE;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    color: #11999E;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+a {
+    color: #11999E;
+  }
+
+.top-container {
+    background-color: #E3FDFD;
+    margin-top : 0;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline ;
+}
+
+.intro {
+    width: 33.5%;
+    margin: auto;
+    text-align: justify;
+}
+
+.top-cloud {
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.skill-row { 
+    width: 50%;
+    margin: 10rem auto;
+    text-align: justify;
+}   
+
+
+.skill-img1 {
+    margin-top: 6rem;
+    margin-right: 3rem;
+    float: left;
+    width: 25%;
+}
+
+.skill-img2 {
+    margin-top: 6rem;
+    margin-left: 3rem;
+    float: right;
+    width: 25%;
+}
+
+.profile-img {
+    margin: 8rem auto 2rem;
+    width: 15%;
+}
+
+
+hr {
+    border: none;
+    border-top: dotted;
+    border-top-width: 6px;
+    border-color: #CFD2CF;
+    width: 50px;
+    margin: 8rem auto;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #71C9CE, #11999E 100%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem 1.7rem;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2rem;
+    margin: 5rem auto 10rem;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #B3E8E5, #82DBD8 100%);
+}
+
+.bottom-container {
+    
+    background-color: #82DBD8;
+    color: #EAF6F6;
+    padding: 5rem;
+    height: 12rem;
+}
+
+.bottom-container p {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    margin: 0 2.5rem;
+}
+
+.footer-link:hover, .btn:hover {
+    cursor: pointer;
+    color: #EAF6F6;
+}
